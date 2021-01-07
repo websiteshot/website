@@ -26,7 +26,7 @@ export default () => (
             Never spend time again to create awesome screenshots of your websites
           </p>
           <p className="mt-8 md:mt-12">
-            <a href="https://websiteshot.app" target="_blank" rel="noreferrer">
+            <a href="https://console.websiteshot.app" target="_blank" rel="noreferrer">
               <Button size="lg">Get Started</Button>
             </a>
           </p>
@@ -156,7 +156,7 @@ export default () => (
         Never spend time again to create awesome screenshots of your websites
       </p>
       <p className="mt-8">
-        <a href="https://websiteshot.app" target="_blank" rel="noreferrer">
+        <a href="https://console.websiteshot.app" target="_blank" rel="noreferrer">
           <Button size="xl">Get Started Now</Button>
         </a>
       </p>
