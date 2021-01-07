@@ -27,7 +27,7 @@ const Header = () => (
         </AnchorLink> */}
       </div>
       <div className="hidden md:block">
-        <a href="https://websiteshot.app" target="_blank" rel="noreferrer">
+        <a href="https://console.websiteshot.app" target="_blank" rel="noreferrer">
           <Button className="text-sm">Start Now</Button>
         </a>
       </div>
