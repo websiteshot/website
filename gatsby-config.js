@@ -5,6 +5,12 @@ module.exports = {
       options: {
         tailwindConfig: `tailwind.config.js`
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/logo.png`
+      }
     }
   ]
 };
