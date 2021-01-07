@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
@@ -42,6 +43,13 @@ const Footer = () => (
         </ul>
       </div>
     </div>
+    <Helmet>
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "4386072c15bf4295bf17358d68964a3d"}'
+      />
+    </Helmet>
   </footer>
 );
 

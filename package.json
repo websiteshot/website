@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
+  "name": "@websiteshot/website",
+  "author": "Adam Urban",
+  "repository": "https://github.com/websiteshot/website",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,8 @@
     "gatsby-theme-codebushi": "1.0.0",
     "react": "^16.14.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
