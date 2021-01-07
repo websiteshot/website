@@ -5,30 +5,39 @@ const Footer = () => (
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+        <p className="mt-5">
+          We love to simplify and automate things. So you have more time to take care of your
+          business!
+        </p>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
         <ul className="mt-4 leading-loose">
           <li>
+            <a href="https://docs.websiteshot.app">Documentation</a>
+          </li>
+          <li>
+            <a href="https://github.com/websiteshot/community/discussions">Community</a>
+          </li>
+          {/* <li>
             <a href="https://codebushi.com">Terms &amp; Conditions</a>
           </li>
           <li>
             <a href="https://codebushi.com">Privacy Policy</a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Social Media</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://dev.to/changoman">Dev.to</a>
+            <a href="https://dev.to/urbanisierung">Dev.to</a>
           </li>
           <li>
-            <a href="https://twitter.com/HuntaroSan">Twitter</a>
+            <a href="https://twitter.com/urbanisierung">Twitter</a>
           </li>
           <li>
-            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+            <a href="https://github.com/websiteshot">GitHub</a>
           </li>
         </ul>
       </div>

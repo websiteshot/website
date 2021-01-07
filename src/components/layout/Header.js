@@ -10,24 +10,26 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Lander
+        Websiteshot
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>
         <AnchorLink className="px-4" href="#services">
-          Services
+          Benefits
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
-          Stats
+          Save Time
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        {/* <AnchorLink className="px-4" href="#testimonials">
           Testimonials
-        </AnchorLink>
+        </AnchorLink> */}
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <a href="https://websiteshot.app" target="_blank" rel="noreferrer">
+          <Button className="text-sm">Start Now</Button>
+        </a>
       </div>
     </div>
   </header>
