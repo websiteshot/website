@@ -3,18 +3,20 @@ import Button from '../components/Button';
 import Card from '../components/Card';
 // import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
+import Head from '../components/layout/Head';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
-// import customerData from '../data/customer-data';
-import HeroImage from '../svg/HeroImage';
+import Api from '../svg/Api';
 // import SvgCharts from '../svg/SvgCharts';
 import Easy from '../svg/Easy';
 import Focus from '../svg/Focus';
-import Api from '../svg/Api';
+// import customerData from '../data/customer-data';
+import HeroImage from '../svg/HeroImage';
 
 export default () => (
   <Layout>
+    <Head />
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
