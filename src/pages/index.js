@@ -66,7 +66,15 @@ export default () => (
               <p className="font-semibold text-xl">Add Filters</p>
               <p className="mt-4">
                 There are downstream filters that come with the web. You can add shadows, scaling,
-                cropping and more directly with Websiteshot.
+                cropping and more directly with Websiteshot. Check out some{' '}
+                <a
+                  href="https://docs.websiteshot.app/docs/examples/examples/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  examples
+                </a>
+                .
               </p>
             </Card>
           </div>
@@ -113,9 +121,13 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">API First</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Of course there is a Console where you can manage your Screenshots. But the magic starts
-            by integrating Websiteshot into your workflows. Use the API to create or schedule
-            Screenshot Jobs and put the results where ever you want.
+            Of course there is a{' '}
+            <a href="https://console.websiteshot.app/" target="_blank" rel="noreferrer">
+              Console
+            </a>{' '}
+            where you can manage your Screenshots. But the magic starts by integrating Websiteshot
+            into your workflows. Use the API to create or schedule Screenshot Jobs and put the
+            results where ever you want.
           </p>
         </div>
       }
