@@ -20,12 +20,12 @@ const Footer = () => (
           <li>
             <a href="https://github.com/websiteshot/community/discussions">Community</a>
           </li>
-          {/* <li>
-            <a href="https://codebushi.com">Terms &amp; Conditions</a>
+          <li>
+            <a href="/terms">Terms &amp; Conditions</a>
           </li>
           <li>
-            <a href="https://codebushi.com">Privacy Policy</a>
-          </li> */}
+            <a href="/privacy">Privacy Policy</a>
+          </li>
         </ul>
       </div>
       <div className="flex-1 px-3">
