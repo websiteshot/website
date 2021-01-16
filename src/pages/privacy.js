@@ -8,7 +8,9 @@ export default () => (
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-none">Privacy Poliy</h1>
+          <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold leading-none">
+            Privacy Policy
+          </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">Effective date: Jan 15, 2021</p>
           <p className="text-base lg:text-base mt-6 font-light">
             Websiteshot ("us", "we", or "our") operates the https://websiteshot.app website (the
