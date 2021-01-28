@@ -12,11 +12,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `src/images/logo.png`
+        icon: `src/images/logo.png`,
+        name: `Websiteshot`,
+        short_name: `Websiteshot`,
+        start_url: `/`,
+        background_color: `#106ed0`,
+        theme_color: `#106ed0`,
+        display: `standalone`
       }
     },
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`
   ]
 };
