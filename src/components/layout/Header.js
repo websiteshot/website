@@ -22,6 +22,9 @@ const Header = () => (
         <AnchorLink className="px-4" href="#stats">
           Save Time
         </AnchorLink>
+        <a className="px-4" href="https://console.websiteshot.app/pricing">
+          Pricing
+        </a>
         {/* <AnchorLink className="px-4" href="#testimonials">
           Testimonials
         </AnchorLink> */}
