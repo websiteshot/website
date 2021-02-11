@@ -13,6 +13,7 @@ import Easy from '../svg/Easy';
 import Focus from '../svg/Focus';
 // import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
+import Newsletter from '../components/Newsletter';
 
 export default () => (
   <Layout>
@@ -48,6 +49,21 @@ export default () => (
         </div>
       </div>
     </section>
+
+    <section className="pt-20 md:pt-40">
+      <div className="container mx-auto px-8 lg:flex">
+        <div className="text-center lg:text-left lg:w-1/2">
+          <h1 className="text-3xl lg:text-5xl font-bold leading-none">
+            Want product news and updates?
+          </h1>
+          <p className="text-xl lg:text-2xl mt-6 font-light">Sign up for our newsletter.</p>
+        </div>
+        <div className="lg:w-1/2">
+          <Newsletter />
+        </div>
+      </div>
+    </section>
+
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
