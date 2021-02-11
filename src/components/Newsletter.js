@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/signup-form.css';
 
 const handleSubmit = () => {
   window.open(
@@ -17,10 +16,9 @@ const Newsletter = () => {
       method="post"
       target="popupwindow"
       onSubmit={handleSubmit}
-      className="SignupForm"
+      className="lg:w-1/2 mt-8 space-y-4"
     >
-      <h2>Subscribe for more!</h2>
-      <div className="Wrapper">
+      <div className="rounded-md shadow-sm -space-y-px">
         <input
           aria-label="Email address"
           placeholder="Enter your email..."
@@ -28,9 +26,15 @@ const Newsletter = () => {
           type="text"
           required
           id="tlemail"
+          className="mb-4 appearance-none rounded-none w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
         />
         <input type="hidden" value="1" name="embed" />
-        <button type="submit">OK</button>
+        <button
+          type="submit"
+          className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          Subscribe
+        </button>
       </div>
     </form>
   );
